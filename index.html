@@ -1,0 +1,141 @@
+<!-- Write your code below -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>The best movies according to Udipta</h1>
+      <h2>My top 3 movies of all time.</h2>
+    </header>
+    <hr />
+    <body>
+      <section>
+        <h3>Hi Nanna</h3>
+        <a href="https://en.wikipedia.org/wiki/Hi_Nanna" target="_blank"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/en/d/d7/Hi_Nanna_poster.jpg"
+            alt="hi_nanna_poster"
+        /></a>
+        <p>A romantic genre movie</p>
+        <p>
+          <label for="rate">Rate the movie (Out of 5):</label>
+          <input
+            type="number"
+            name="rate"
+            id="rate"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0"
+          />
+        </p>
+      </section>
+      <section>
+        <h3>Amaran</h3>
+        <a
+          href="https://en.wikipedia.org/wiki/Amaran_(2024_film)"
+          target="_blank"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/en/5/54/Amaran_2024_poster.jpg"
+            alt="amaran_poster"
+        /></a>
+        <p>A movie of a soldier based on true story</p>
+        <p>
+          <label for="rate">Rate the movie (Out of 5):</label>
+          <input
+            type="number"
+            name="rate"
+            id="rate"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0"
+          />
+        </p>
+      </section>
+      <section>
+        <h3>Chhaava</h3>
+        <a href="https://en.wikipedia.org/wiki/Chhaava" target="_blank"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/en/7/75/Chhaava_film_poster.jpg"
+            alt="Chhaava_poster"
+        /></a>
+        <p>A movie telling the story of Chatrapati Shambhaji Maharaj</p>
+        <p>
+          <label for="rate">Rate the movie (Out of 5):</label>
+          <input
+            type="number"
+            name="rate"
+            id="rate"
+            min="0"
+            max="5"
+            step="0.1"
+            value="0"
+          />
+        </p>
+      </section>
+    </body>
+    <hr />
+    <footer>
+      <p>These are my top 3. Suggest yours.</p>
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+          <section>
+            <label for="name">Enter name: </label>
+            <input type="text" name="name" id="name" placeholder="Name" />
+          </section>
+          <br />
+          <section>
+            <label for="email">Enter email id: </label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </section>
+          <br />
+          <section>
+            <label for="like">Did you like my suggestions? </label>
+            <input type="radio" name="like" id="like" />Yes
+            <input type="radio" name="like" id="like" />No
+          </section>
+        </fieldset>
+        <fieldset>
+            <legend>Suggestions</legend>
+            <section>
+                <label for="suggestion">Enter your 1st suggestion: </label>
+                <input
+                type="text"
+                name="suggestion"
+                id="suggestion"
+                placeholder="Suggestion 1"
+                />
+                <br /><br />
+                <label for="suggestion">Enter your 2nd suggestion: </label>
+                <input
+                type="text"
+                name="suggestion"
+                id="suggestion"
+                placeholder="Suggestion 2"
+                />
+                <br /><br />
+                <label for="suggestion">Enter your 3rd suggestion: </label>
+                <input
+                type="text"
+                name="suggestion"
+                id="suggestion"
+                placeholder="Suggestion 3"
+                />
+            </section>
+        </fieldset>
+        <br />
+        <section>
+          <input type="submit" value="Submit" />
+        </section>
+        <hr />
+        <p>Than you for visiting | Udipta Saha &copy;</p>
+      </form>
+    </footer>
+  </body>
+</html>
